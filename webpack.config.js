@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ESLintPlugin = require("eslint-webpack-plugin");
 
 const webpackConfig = {
   entry: path.resolve(__dirname, "src", "index.js"),
@@ -37,6 +38,7 @@ const webpackConfig = {
       title: "vanillaJS app",
       template: path.resolve(__dirname, "src", "index.html"),
     }),
+    new ESLintPlugin(),
   ],
 
   optimization: {
