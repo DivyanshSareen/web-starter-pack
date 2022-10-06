@@ -1,5 +1,5 @@
 {
   "parser": "@babel/eslint-parser",
   "extends": ["airbnb"],
-  "rules": {}
+  "rules": {"linebreak-style": ["error", "windows"]}
 }
