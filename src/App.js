@@ -1,9 +1,4 @@
-import "./App.css";
+import './App.css';
 
-const App = ({ name }) => {
-  return `
-    <h2> Welcome, ${name} </h2>
-    `;
-};
-
+const App = ({ name }) => `<h2> Welcome, ${name} </h2>`;
 export default App;
