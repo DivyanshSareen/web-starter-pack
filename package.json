@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve --open --live-reload",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +19,8 @@
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "babel": {
     "presets": [

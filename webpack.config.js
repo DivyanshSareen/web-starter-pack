@@ -38,6 +38,7 @@ const webpackConfig = {
       template: path.resolve(__dirname, "src", "index.html"),
     }),
   ],
+
   optimization: {
     splitChunks: {
       cacheGroups: {
@@ -50,6 +51,12 @@ const webpackConfig = {
       },
     },
   },
+
+  devtool: "inline-source-map",
+  devServer: {
+    contentBase: "./dist",
+  },
+
   mode: "production",
 };
 
