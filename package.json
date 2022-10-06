@@ -16,5 +16,11 @@
     "@babel/core": "^7.14.2",
     "@babel/preset-env": "^7.14.2",
     "babel-loader": "^8.2.2"
-  }
+  },
+  "babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"browserslist": "> 0.25%, not dead"
 }
