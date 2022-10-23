@@ -4,10 +4,20 @@
     "airbnb",
     "prettier"
   ],
+  "plugins": [
+    "eslint-plugin-prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
-    "linebreak-style": [
+    "linebreak-style": 0,
+    "prettier/prettier": [
       "error",
-      "windows"
+      {
+        "endoOfLine": "auto"
+      }
     ]
   }
 }
