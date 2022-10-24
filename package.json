@@ -1,17 +1,27 @@
 {
-  "name": "web-starter-pack",
+  "name": "@divyanshsareen/web-starter-pack",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web starter kit for VanillaJS",
+  "bin": "./bin/cli.js",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --live-reload",
     "build": "webpack",
     "lint": "eslint --fix --ext .js,.jsx .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npx install husky"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/DivyanshSareen/web-starter-pack"
+  },
+  "keywords": [
+    "Webpack",
+    "JavaScript",
+    "web-starter-kit"
+  ],
+  "author": "Divyansh Sareen",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.2",
     "@babel/eslint-parser": "^7.19.1",

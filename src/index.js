@@ -6,5 +6,5 @@ const root = document.getElementById("root"); // eslint-disable-line no-undef-in
 root.innerHTML = `
 <img src="${Logo}" alt="build icon" />
 <h1> learning web tooling today </h1>
-${App({ name: "Tanay" })}
+${App({ name: "Divyansh" })}
 `;
