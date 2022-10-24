@@ -58,9 +58,9 @@ const webpackConfig = {
   devServer: {
     static: "./dist",
   },
-    performance: {
-        hints: false
-    },
+  performance: {
+      hints: false
+  },
   mode: "production",
 };
 
