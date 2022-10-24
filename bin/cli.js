@@ -12,6 +12,6 @@ if(!checkedOut) process.exit(-1);
 
 console.log(`Installing dependencies for ${repoName}`)
 const installedDeps = runCommand(installDepsCommand);
-if(!installDeps) process.exit(-1);
+if(!installedDeps) process.exit(-1);
 console.log("Congratulations! You are ready. Follow the following commands to start.");
 console.log(`cd ${repoName} && npm start`);
