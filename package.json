@@ -1,6 +1,6 @@
 {
   "name": "@divyanshsareen/web-starter-pack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A web starter kit for VanillaJS",
   "bin": "./bin/cli.js",
   "main": "index.js",
