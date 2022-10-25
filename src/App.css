@@ -1,7 +1,29 @@
-h1 {
-  color: royalblue;
+body {
+  font-family: monospace;
+  background: #E5E9EB;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
-  color: orangered;
+  font-size: 3rem;
+  color: #A396E0;
+}
+
+img {
+  margin: 3rem;
+}
+
+a {
+  font-size: 2rem;
+  color: #8A9398;
+}
+
+a:focus {
+  color: #FF8C32;
 }

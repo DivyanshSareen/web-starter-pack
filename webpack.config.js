@@ -37,6 +37,7 @@ const webpackConfig = {
     new HtmlWebpackPlugin({
       title: "vanillaJS app",
       template: path.resolve(__dirname, "src", "index.html"),
+      favicon: "./src/logo.svg"
     }),
     new ESLintPlugin(),
   ],
