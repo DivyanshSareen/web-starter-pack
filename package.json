@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack serve --open --live-reload",
     "build": "webpack",
-    "lint": "eslint --fix --ext .js,.jsx .",
+    "lint": "eslint --fix --ext \"src/**/*.{js,jsx}\"",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,7 +31,6 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
     "eslint": "^8.24.0",
-    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-webpack-plugin": "^3.2.0",
