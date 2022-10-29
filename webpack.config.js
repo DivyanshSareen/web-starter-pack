@@ -31,7 +31,7 @@ const webpackConfig = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: "vanillaJS app",
+      title: "ReactJS App",
       template: path.resolve(__dirname, "src", "index.html"),
       favicon: "./src/logo.svg",
     })
