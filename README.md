@@ -1,4 +1,4 @@
-# web-starter-pack
+# <img src="https://user-images.githubusercontent.com/59335572/198846141-60e57764-aacc-40d6-b3da-c52908362623.svg" alt="logo" width="50px" height="50px"/>web-starter-pack
 A web development starter kit. 
 
 ### Overview of Dependencies used:
