@@ -58,6 +58,9 @@ const webpackConfig = {
     hints: false,
   },
   mode: "production",
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
+  }
 };
 
 module.exports = webpackConfig;

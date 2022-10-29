@@ -2,7 +2,8 @@ import React from "react";
 import Gif from "./giphy.gif";
 
 const App = () => {
-  return(<div class="message">
+  return (
+    <div class="message">
       <h2> You are Ready to Code! </h2> <img src={Gif} />
       <a
         target="_blank"
@@ -10,7 +11,8 @@ const App = () => {
       >
         click to learn more
       </a>
-    </div>);
-    };
-    
+    </div>
+  );
+};
+
 export default App;
