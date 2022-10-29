@@ -1,7 +1,7 @@
 {
   "name": "@divyanshsareen/web-starter-pack",
-  "version": "1.0.5",
-  "description": "A web starter kit for VanillaJS",
+  "version": "2.0.0",
+  "description": "A web starter kit for ReactJS",
   "bin": "./bin/cli.js",
   "main": "index.js",
   "scripts": {
