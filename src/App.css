@@ -12,7 +12,7 @@ body {
 
 h2 {
   font-size: 3rem;
-  color: #A396E0;
+  color: #113D6D;
 }
 
 img {
@@ -22,6 +22,10 @@ img {
 a {
   font-size: 2rem;
   color: #8A9398;
+}
+
+a:hover {
+  color: #113D6D;
 }
 
 a:focus {
