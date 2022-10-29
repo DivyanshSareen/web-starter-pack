@@ -1,7 +1,6 @@
-import App from "./App";
+import React from "react"
+import ReactDom from "react-dom"
+import App from "./App"
+import "./App.css"
 
-const root = document.getElementById("root"); // eslint-disable-line no-undef-init
-
-root.innerHTML = `
-${App()}
-`;
+ReactDom.render(<App />, document.getElementById('app'))

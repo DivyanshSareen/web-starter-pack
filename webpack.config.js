@@ -13,14 +13,11 @@ const webpackConfig = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        exclude: /(node_modules)/,
+        test: /\.(js|jsx)$/,
+        exclude: /nodeModules/,
         use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env"],
-          },
-        },
+          loader: 'babel-loader'
+        }
       },
       {
         test: /\.css$/i,
