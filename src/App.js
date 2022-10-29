@@ -1,8 +1,7 @@
 import "./App.css";
 import Gif from "./giphy.gif";
 
-const App = () => {
-  return (
+const App = () => `
     <div class="message">
       <h2> You are Ready to Code! </h2> <img src="${Gif}" />
       <a
@@ -11,7 +10,5 @@ const App = () => {
       >
         click to learn more
       </a>
-    </div>
-  );
-};
+    </div>`;
 export default App;

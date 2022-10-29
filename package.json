@@ -47,11 +47,6 @@
       "@babel/preset-env"
     ]
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "browserslist": "> 0.25%, not dead",
   "dependencies": {
     "react": "^18.2.0",
